@@ -1,4 +1,5 @@
 import SwiftUI
+import AppIntents
 
 struct ContentView: View {
     @State private var counterModel = CounterModel.shared
@@ -76,6 +77,11 @@ struct ContentView: View {
             .sheet(isPresented: $showSettings) {
                 SettingsView()
             }
+            #if os(iOS)
+            .onAppIntentExecution(OpenSettingsIntent.self) { intent in
+                showSettings = true
+            }
+            #endif
         }
     }
 }
