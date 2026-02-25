@@ -33,5 +33,15 @@ struct CounterAppShortcuts: AppShortcutsProvider {
             shortTitle: "Reset",
             systemImageName: "arrow.counterclockwise"
         )
+        
+        AppShortcut(
+            intent: OpenSettingsIntent(),
+            phrases: [
+                "Open \(.applicationName) settings",
+                "Show \(.applicationName) settings"
+            ],
+            shortTitle: "Settings",
+            systemImageName: "gearshape"
+        )
     }
 }
