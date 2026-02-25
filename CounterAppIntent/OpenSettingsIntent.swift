@@ -6,7 +6,7 @@ struct OpenSettingsIntent: AppIntent, TargetContentProvidingIntent {
     static var openAppWhenRun: Bool = true
     
     @MainActor
-    func perform() async throws -> some IntentResult & ProvidesDialog {
-        return .result(dialog: "Opening settings")
+    func perform() async throws -> some IntentResult {
+        return .result()
     }
 }
