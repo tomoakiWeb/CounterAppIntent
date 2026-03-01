@@ -55,6 +55,7 @@ struct ContentView: View {
                         Text("• Increment Counter")
                         Text("• Decrement Counter")
                         Text("• Reset Counter")
+                        Text("• Settings")
                     }
                     .font(.caption)
                     .foregroundStyle(.secondary)
