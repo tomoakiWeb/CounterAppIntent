@@ -2,12 +2,19 @@
 
 A simple counter app demonstrating App Intents and Siri integration for iOS.
 
+<p align="left">
+  <img src="https://github.com/user-attachments/assets/1a663bba-5cee-4f0f-931e-8d7eb28fcdc2" width="400" />
+  <img src="https://github.com/user-attachments/assets/5fbf1d3b-11b5-4819-877b-3bbe62079fca" width="400" />
+</p>
+
+
 ## Features
 
 - **Counter functionality**: Increment, decrement, and reset a counter
 - **Siri integration**: Control the counter using voice commands
 - **App Shortcuts**: Pre-configured shortcuts for quick access
 - **Settings view**: Display app version information
+
 
 ## App Intents
 
